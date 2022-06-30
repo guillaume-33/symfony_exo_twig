@@ -13,6 +13,6 @@ class MainController extends AbstractList
    */
 
   public function accueil(){
-      dd('test');
+      return new Response("hello ! ");
   }
 }
