@@ -8,6 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-   <h1> Bonjour {{ name }}</h1>
+{# <h1> Bonjour {{ name }}</h1>#}
+
+{% if category.published %}
+<article style="background-color: {{ category.color }}">
+    <h1>{{ category.title }}</h1>
+    <p> {{ category.description }}</p>
+</article>
+{% endif %}
+
 </body>
 </html>

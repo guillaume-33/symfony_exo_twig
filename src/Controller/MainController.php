@@ -16,10 +16,19 @@ class MainController extends AbstractController
   public function accueil(){
 
       $name= 'Guillaume'; //créé la variable 'name'
-      return $this-> render("accueil.html.twig", ['name' => $name]);
+      //return $this-> render("accueil.html.twig", );
       // permet de renvoyer la ou les variables vers la page
       // "acceuil.html.twig
-  }
+      $category = [
+          'title' => 'Politique',
+          'color' => 'green',
+          'published' => true,
+          'description' => 'Decrypter l\'actualité politique avec le prisme de David Robert'
+        ];
 
+        return $this-> render("accueil.html.twig",['category'=> $category]);
+
+
+  }
 
 }
