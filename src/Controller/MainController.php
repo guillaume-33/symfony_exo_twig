@@ -2,10 +2,11 @@
 
 namespace App\Controller;
 
+use phpDocumentor\Reflection\Types\AbstractList;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 
-class MainController
+class MainController extends AbstractList
 {
   /**
    * @Route("/accueil" , name="accueil")
