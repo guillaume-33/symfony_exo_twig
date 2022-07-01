@@ -4,5 +4,6 @@
         <p>{{ star.description }}</p>
         <img style="width: 25%" src="{{ star.image }}">
         <p>{{ star.publishedDate|date("m/d/Y") }}</p>
+        <a href ={{ path('star', {'id': star.id}) }}>En savoir plus...</a>
     </article>
 {% endif %}
