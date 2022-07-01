@@ -5,5 +5,8 @@
         <img style="width: 25%" src="{{ star.image }}">
         <p>{{ star.publishedDate|date("m/d/Y") }}</p>
         <a href ={{ path('star', {'id': star.id}) }}>En savoir plus...</a>
+        {# pour les liens, l'utilisation de la commande 'path" permet de créer les liens dans symfony.
+         Le fait de rajouter le nom de la page  que l'on veux a partir du template au leiu d'un chemin 'type URL'
+         permet d'avoir un lien permanent quel que soit l'utilisateur#}
     </article>
 {% endif %}

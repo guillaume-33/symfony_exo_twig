@@ -51,7 +51,7 @@ class StarsControlleur extends AbstractController
                 ],
                 5 => [
                     'title' => 'JCVD',
-                    'description' => 'Eric',
+                    'description' => 'j\'adore l\'eau, dans 20 , 30 ans y en aura plus',
                     'color' => 'blue',
                     'published' => true,
                     'image' => 'https://www.programme.tv/imgre/fit/~1~tel~2021~07~12~6801abcb-554d-4a8b-8667-d05cb7f88734.png/1160x500/crop-from/top/quality/80/focus-point/1783,871/jean-claude-van-damme-devoile-les-causes-de-ses-problemes-de-drogue.jpg',
@@ -110,7 +110,7 @@ class StarsControlleur extends AbstractController
                     ],
                     5 => [
                         'title' => 'JCVD',
-                        'description' => 'Eric',
+                        'description' => 'j\'adore l\'eau, dans 20 , 30 ans y en aura plus',
                         'color' => 'blue',
                         'published' => true,
                         'image' => 'https://www.programme.tv/imgre/fit/~1~tel~2021~07~12~6801abcb-554d-4a8b-8667-d05cb7f88734.png/1160x500/crop-from/top/quality/80/focus-point/1783,871/jean-claude-van-damme-devoile-les-causes-de-ses-problemes-de-drogue.jpg',
