@@ -15,11 +15,11 @@ class MainController extends AbstractController
 
   public function accueil(){
 
-      //créé la variable 'name'
-      //return $this-> render("accueil.html.twig", );
-      // permet de renvoyer la ou les variables vers la page
-      // "acceuil.html.twig
       $name= 'Guillaume';
+      //créé la variable 'name'
+      //return $this-> render("accueil.html.twig",['name'=>$name], );
+      // permet de renvoyer la ou les variables vers la page "acceuil.html.twig
+
       $category = [
           'title' => 'Politique',
           'color' => 'green',
@@ -31,6 +31,7 @@ class MainController extends AbstractController
             'category'=> $category,
             'name'=>$name,
         ]);
+      //ouvrir le crochet au debut du return,puis mettre avec indentation logique toute les variable que l'on veux utiliser.
 
 
   }
