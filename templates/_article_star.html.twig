@@ -1,0 +1,8 @@
+{% if star.published %} {# penser a faire la demande pour UNE entrée !!#}
+    <article style=" border: 2px solid {{ star.color }}">
+        <h1> {{ star.title }}</h1>
+        <p>{{ star.description }}</p>
+        <img style="width: 25%" src="{{ star.image }}">
+        <p>{{ star.publishedDate|date("m/d/Y") }}</p>
+    </article>
+{% endif %}
