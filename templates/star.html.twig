@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-{% for star in stars %} //la boucle permet de faire la demande pour chaque 'entrée' du tableau
-    {% if star.published %} // penser a faire la demande pour UNE entrée !!
+{% for star in stars %} {# la boucle permet de faire la demande pour chaque 'entrée' du tableau #}
+    {% if star.published %} {# penser a faire la demande pour UNE entrée !!#}
         <article style=" border: 2px solid {{ star.color }}">
             <h1> {{ star.title }}</h1>
             <p>{{ star.description }}</p>
