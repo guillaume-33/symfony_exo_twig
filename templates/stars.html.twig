@@ -1,7 +1,7 @@
 {% include '_header.html.twig' %}
 {% for star in stars %} {# la boucle permet de faire la demande pour chaque 'entrée' du tableau #}
 {% include '_article_star.html.twig' %}
-    <a href ={{ path('star', {'id': star.id}) }}>En savoir plus...</a>
+  
 {% endfor %}
 
 
