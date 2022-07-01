@@ -15,7 +15,7 @@ class StarControlleur extends AbstractController
                     'title' => 'Tex',
                     'description' => 'Mex',
                     'color' => 'red',
-                    'published' => false,
+                    'published' =>true,
                     'image' => 'https://resize.programme-television.ladmedia.fr/r/670,670/img/var/premiere/storage/images/tele-7-jours/news-tv/video-les-z-amours-france-2-tex-craque-sa-chemise-devant-les-candidats-4344637/77880010-1-fre-FR/VIDEO-Les-Z-amours-France-2-Tex-craque-sa-chemise-devant-les-candidats.jpg',
                     'publishedDate' => new \DateTime('NOW')
                 ],
@@ -53,7 +53,7 @@ class StarControlleur extends AbstractController
                 ]
             ];
 
-            return $this-> render("star.html.twig",[
+            return $this-> render("stars.html.twig",[
                 'stars'=> $stars,
 
             ]);
